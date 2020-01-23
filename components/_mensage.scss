@@ -1,0 +1,35 @@
+.contacts{
+
+    background-color: grey;
+    font-size: 10px;
+  }
+
+  .profile-mensager{
+    width:95px;
+    height: 80px;
+    background-color: $three-background-color;
+    display: flex; 
+      
+    }
+
+  .icons-tec{
+    font-size: 15px;
+    color:$second-color;
+    display: flex;
+    justify-content: space-evenly;;
+    margin: 0px 90px 0px 90px;
+    padding: 10px;
+    position: relative;
+    right: -100px;
+    bottom: 70px;
+  
+  }  
+  .icon-search{
+    font-size: 12px;
+    color: #cccccc;
+    display: flex;
+    position: absolute;
+    left: 80px;
+    top: 35px;
+  }
+ 

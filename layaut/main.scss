@@ -1,0 +1,277 @@
+body{
+    background-color:$second-background-color;
+    display:flex;
+    justify-content:center;
+    margin-top: 25px;
+    }
+
+.container{
+    width:1000px;
+    height:630px;
+    border-radius: 10px;
+    background-color:$firs-background-color;
+    display:flex;
+    justify-content:space-around;
+    flex-direction:row;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    
+    header{
+        width: 2580px;
+        height: 80px;
+         display: flex;
+        position: relative;
+        border-bottom: 2px solid rgb(200, 199, 199);
+
+        .search{
+            width: 200px;   
+            height: 40px;
+            display: flex;
+            position: absolute;
+            top: 20px;
+            left: 60px;
+            padding-left: 40px;
+            color: $second-color;
+            border-bottom-left-radius: 5%;
+            border-top-left-radius: 5%;
+            
+
+        }
+        
+     
+    }
+
+
+    .contacts{
+        height: 550px;
+        width:95px;
+        margin-top: 50px;
+        position: absolute;
+        left: 175px;
+        top:55px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border-bottom-left-radius: 3%;
+            
+        p{
+            margin-top: 0px auto;
+            position:relative;
+            top:50px;
+            left: 0px;
+            font-weight: bold;
+            text-align: center;
+
+          } 
+    }
+   }
+
+.profile{
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    position: relative;
+    left: 20px;
+    top: -20px;
+
+}
+.profile-mensager{
+    width:95px;
+    height:80px;
+    background-color: $three-background-color;
+    display: flex;
+    text-align: center;
+       }
+
+.general-main{
+    width: 595px;
+    height: 500px;
+    display: block;
+    position: absolute;
+    left: 273px;
+    top: 105px;
+    border-right: 2px solid rgb(200, 199, 199);
+    border-bottom:2px solid rgb(200, 199, 199) ;
+    
+    
+    .profile-one , .profile-two , .profile-three , .profile-four {
+
+        width:40px;
+        display:flex;
+        border-radius: 50%;
+       
+   }
+
+}
+   .profile-one{
+      position: absolute;
+       top: 160px;
+       left: 25px;
+   }
+      
+    .profile-two{
+    display: block;
+    position: absolute;
+    right:70px;
+    top:70px;
+    }
+
+    .profile-three{
+        display:block;
+        position: absolute;
+        top: 380px;
+        left:25px;
+        }
+
+        .profile-four{
+            display:block;
+            position: absolute;
+            right:70px;
+            top:275px;  
+        }
+   
+
+.chat-one{
+    width: $main-width-chat-main;
+    height: $main-height-chat-main;
+    background-color:$second-background-color;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius:30%;
+    display: flex; 
+    justify-content: flex-start;
+    position: absolute;
+    left: 220px;
+    top: 70px;
+}
+
+.chat-two{
+    width: 350px;
+    height:$main-height-chat-main;
+    background-color:$three-background-color;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius:30%;
+    display: block; 
+    position: absolute;
+    text-align: center;
+    margin-top: 0 auto;
+    text-align: center;
+    left: 80px;
+    top: 150px;
+
+}
+
+.chat-three{
+    width: $main-width-chat-main;
+    height: $main-height-chat-main;
+    background-color:$second-background-color;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius:30%;
+    display: flex; 
+    justify-content: flex-start;
+    position: absolute;
+    left: 220px;
+    top:270px;
+
+}
+
+.chat-four{
+    width: 350px;
+    height: $main-height-chat-main;
+    background-color:$three-background-color;
+    border-bottom-left-radius:30%;
+    border-bottom-right-radius: 30%;
+    border-top-right-radius:30%;
+    display: block; 
+    position: absolute;
+    text-align: center;
+    margin-top: 0 auto;
+    text-align: center;
+    left: 80px;
+    top: 380px;
+
+}
+
+
+.main-chat{
+    width: 315px;
+    height: 500px;
+    margin-top: 80px;
+    position:absolute;
+    left: 868px;
+    display: block;
+
+    h1{
+        display:block;
+        margin: 80px 30px 40px 30px;
+        font-size: 18px;
+        text-align: left;
+        
+
+    }
+
+    .profile-chat{
+
+        width:90px;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 250px;
+        right: 125px;
+
+    }
+
+}    
+
+
+.call-on {
+    font-size: 40px;
+    color: green;
+    display: flex;
+    position: relative;
+    top: 270px;
+    left: 70px;
+    
+}
+.call-off{
+    font-size: 40px;
+    color: red;
+    display: flex;
+    position: relative;
+    top: 230px;
+    left: 200px;
+}
+
+.footer-logo-two {
+    font-size: 15px;
+    color:$second-color;
+    display: flex;
+    position: relative;
+    top: 585px;
+    left: -350px;
+   
+}
+
+.footer-logo{
+
+    font-size: 15px;
+    color:$second-color;
+    display: flex;
+    position: relative;
+    top: 600px;
+    left: -850px;
+
+
+}
+
+.menssager {
+    width: 450px;
+    height: 20px;
+    position: absolute;
+    bottom:-35px;
+    left: -530px;
+    border-radius: 1%;
+    padding-left: 15px;
+    
+}
